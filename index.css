@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+
+
+}
+
+#header{
+    background-color: #6943FF;
+    color:#FFFFFF;
+    font-style: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#number{
+    color:#FFFFFF;
+    font-size:40px;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    text-align: center;
+}
+
+button{
+    background-color: #FFFFFF;
+    width: 150px;
+    height:40px;
+    border-radius: 5px;
+    border: none;  
+    margin:20px auto ;
+    font-size:20px;
+}
+button:hover{
+    transform: translateY(2px);
+}
+
+#container{
+    background-color:#F4F4F4;
+    margin:0;
+    padding:0;
+    
+}
+
+.length,
+.volume,
+.mass{
+    /* why the top and bottom is connected with the body? */
+    padding-top: 0px;
+    padding-bottom:0;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    height:110px;
+    width:500px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#5A537B;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.answer{
+    font-size: 16px;
+    color:#353535;
+}
