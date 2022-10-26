@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
-    
-    
+
+
 </head>
+
 <body>
     <div id="header">
         <h2>Metric/Imperial Unit Conversion</h2>
-        <input id="number" type="text">
+        <input type="text" id="number">
         <div></div>
         <button id="convert-btn">Convert</button>
-        
+
     </div>
 
     <div id="container">
-        <div class="length">Length (Meter/Feet)</div>
-        <div class="answer length-asnwer"></div>
-        <div class="volume">Volume (Liters/Gallons)</div>
-        <div class="answer volume-asnwer"></div>
-        <div class="mass">Mass (Kilograms/Pounds</div>
-        <div class="answer mass-asnwer"></div>
+
+        <div class="length-container">
+            <div class="length">Length (Meter/Feet)</div>
+            <div class="length-answer"></div>
+        </div>
+
+        <div class="volume-container">
+            <div class="volume">Volume (Liters/Gallons)</div>
+            <div class="volume-answer"></div>
+        </div>
+
+        <div class="mass-container">
+            <div class="mass">Mass (Kilograms/Pounds)</div>
+            <div class="mass-answer"></div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>

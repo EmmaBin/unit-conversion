@@ -42,14 +42,15 @@ button:hover{
 #container{
     background-color:#F4F4F4;
     margin:0;
-    padding:0;
+    padding:10px;
     
 }
 
-.length,
-.volume,
-.mass{
+.length-container,
+.volume-container,
+.mass-container{
     /* why the top and bottom is connected with the body? */
+    /* problem solved by adding padding to the parent div #line 45 */
     padding-top: 0px;
     padding-bottom:0;
     margin: 30px auto;
@@ -59,6 +60,7 @@ button:hover{
     box-sizing: border-box;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color:#5A537B;
@@ -66,7 +68,10 @@ button:hover{
     font-size: 20px;
 }
 
-.answer{
+.length-answer,
+.volume-answer,
+.mass-answer{
     font-size: 16px;
     color:#353535;
+    margin-top: 10px;
 }
